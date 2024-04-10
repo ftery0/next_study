@@ -3,7 +3,7 @@ import {moview} from "src/types/movies/movies.types"
 const url = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 const getMoveies = async () => {
-  await new Promise((resolve) => setTimeout(resolve, 100));
+//   await new Promise((resolve) => setTimeout(resolve, 1000)); 강제로 시간지정
   const respoense = await fetch(url);
   const json = await respoense.json();
   return json;
