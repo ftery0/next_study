@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Navgiton />
-      <h1>wlocome Home</h1>
+      <h1>wlecome Home</h1>
       <Main />
     </>
   );
